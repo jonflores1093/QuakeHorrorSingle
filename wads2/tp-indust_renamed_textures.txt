@@ -1,0 +1,26 @@
+Because Quake only supports 15.3 filenames (15 characters for the file's basename, 3 for the extension) the filenames had to be altered. The following is a list of the renaming.
+-Spirit
+
+Original		Renamed to
+                    
+concrete1b_mach1	concrete1b_mch1
+concrete1b_panel1	concrete1b_pnl1
+concrete1b_panel2	concrete1b_pnl2
+concrete1b_seam1	concrete1b_sm1
+concrete1b_seam2	concrete1b_sm2
+concrete2b_girder1	concrete2b_gdr1
+concrete2b_girder2	concrete2b_gdr2
+concrete2b_girder3	concrete2b_gdr3
+concrete2b_panel1	concrete2b_pnl1
+concrete2b_panel2	concrete2b_pnl2
+concrete2b_seam1	concrete2b_sm1
+concrete2b_seam2	concrete2b_sm2
+concrete2b_triangle	concrete2b_trgl
+metb_light1_blend	metb_light1_bld
+metb_light2_blend	metb_light2_bld
+metb_light3_blend	metb_light3_bld
+metb_seam_girder	metb_seam_grdr
+mettb_seam_girder	mettb_seam_grdr
+mettg_seam_girder	mettg_seam_grdr
+metto_seam_girder	metto_seam_grdr
+mety_seam_girder	mety_seam_grdr

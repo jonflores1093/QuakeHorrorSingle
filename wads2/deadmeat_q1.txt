@@ -1,0 +1,45 @@
+
+what: Deadmeat textures by 
+
+Meat (Pete Parisi)
+__________________
+Converted to quake1 wad by Speedy 
+( Speedy   www.planetquake.com/speedy
+	 speeds@softhome.net
+	 ICQ 68154481	)
+
+
+What Pete had to say : 
+
+"Can I use your textures in my Quake3 map?"
+
+-- sure, everyone is more than welcome to use any and all of my textures and shaders in projects
+ for any game as long as the project is not being sold. If you do use any of my textures I would 
+appreciate a link to my web site and proper credite given in any text files or documentation 
+included with your project.
+
+Thanks,
+Credit Info
+
+Meat (Pete Parisi)
+www.badmeat.com
+meatpak@hotmail.com
+
+___________________
+
+
+Conversion info: textures are not downsized, because they`d look crap.
+I only made two 32x32 lamps.
+Shaders were combined to make light and animated textures.
+Be carefull not to overcome 2mb texture data limit of q1.
+
+
+- Copyright / Permissions -
+Copyright (c) Pete Parisi
+Deadmeat Pak
+
+Textures
+All textures in this pak are free to use with the exception of and not limited too any commercial product being sold for profit, or any project that is being advertised as completely original. This includes quake3 based projects and other projects using any other game engines. In any case were these textures are being used it would be appreciated that proper credit be given and that a link to www.badmeat.com be included in any documentation accompanied with that project.
+
+
+____

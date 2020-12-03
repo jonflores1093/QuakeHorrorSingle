@@ -1,0 +1,7 @@
+This is a straight conversion to Quake 1 palette done with textures2quake. Long filenames were renamed manually, see renamed_textures.txt. This is not really meant to be used as Quake 1 textures but to make it possible to easily make a Quake map using the high-resolution textures available.
+
+See tp-indust_industrial_soc_readme.txt for the original readme.
+
+This is under the same license of course.
+
+Happy Mapping, Spirit
