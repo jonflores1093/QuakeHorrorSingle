@@ -1,0 +1,83 @@
+---- qbsp / ericw-tools v0.18.1 ----
+Input file: dome.map
+Output file: dome.bsp
+
+---- LoadMapFile ----
+*** WARNING 05: No info_player_start entity in level
+         1456 faces
+          244 brushes
+           40 entities
+            7 unique texnames
+          225 texinfo
+
+Opened WAD: C:/Users/jonfl/Desktop/QuakeGD/wads/prototype_1_2.wad
+Processing hull 0...
+---- Brush_LoadEntity ----
+          244 brushes
+           59 planes
+---- CSGFaces ----
+         1456 brushfaces
+          643 csgfaces
+          658 mergedfaces
+---- SolidBSP ----
+          426 split nodes
+          162 solid leafs
+          241 empty leafs
+           24 water leafs
+            0 detail leafs
+            0 detail illusionary leafs
+            0 detail fence leafs
+            0 illusionary visblocker leafs
+         5379 leaffaces
+         5377 nodefaces
+---- Portalize ----
+          265 vis leafs
+          265 vis clusters
+          627 vis portals
+---- FillOutside ----
+          162 outleafs
+---- MergeAll ----
+          452 mergefaces
+---- SolidBSP ----
+          210 split nodes
+          128 solid leafs
+           62 empty leafs
+           21 water leafs
+            0 detail leafs
+            0 detail illusionary leafs
+            0 detail fence leafs
+            0 illusionary visblocker leafs
+         3102 leaffaces
+         3100 nodefaces
+---- Portalize ----
+           83 vis leafs
+           83 vis clusters
+          190 vis portals
+---- Tjunc ----
+          739 world edges
+         7510 edge points
+          958 edges added by tjunctions
+            0 faces added by tjunctions
+---- MakeFaceEdges ----
+---- GrowRegions ----
+Processing hull 1...
+Processing hull 2...
+---- WriteBSPFile ----
+Wrote dome.bsp
+          112 planes             2240
+         3439 vertexes          41268
+          210 nodes              5040
+          149 texinfo            5960
+         3100 faces             62000
+          422 clipnodes          3376
+           84 leafs              2352
+         3102 marksurfaces       6204
+        13344 surfedges         53376
+         6673 edges             26692
+            7 textures          54712
+              lightdata             0
+              visdata               0
+              entdata            2096
+
+0.314 seconds elapsed
+Peak memory usage: 11831312 (11.3M)
