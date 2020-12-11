@@ -898,7 +898,7 @@
 // entity 4
 {
 "classname" "func_door"
-"targetname" "Cooler DoorMain"
+"targetname" "Cooler Door"
 // brush 0
 {
 ( 2000 1296 -512 ) ( 2000 1297 -512 ) ( 2000 1296 -511 ) 128_grey_3 0 0 0 1 1
@@ -1095,7 +1095,6 @@
 // entity 35
 {
 "classname" "func_button"
-"target" "FactoryDoor"
 // brush 0
 {
 ( 0 -64 16 ) ( 0 -63 16 ) ( 0 -64 17 ) 128_gold_3 0 0 0 1 1
@@ -1109,7 +1108,6 @@
 // entity 36
 {
 "classname" "func_button"
-"target" "FactoryDoor"
 // brush 0
 {
 ( 192 -64 16 ) ( 192 -63 16 ) ( 192 -64 17 ) 128_gold_3 0 0 0 1 1
@@ -1123,8 +1121,6 @@
 // entity 37
 {
 "classname" "func_button"
-"targetname" "ObservatoryDoorButton"
-"target" "observatory door"
 // brush 0
 {
 ( -320 -320 144 ) ( -320 -319 144 ) ( -320 -320 145 ) 128_gold_3 112 0 0 1 1
@@ -1153,8 +1149,6 @@
 // entity 39
 {
 "classname" "func_button"
-"targetname" "ObservatoryDoorButtonMain"
-"target" "observatory door main"
 // brush 0
 {
 ( 1056 -1312 464 ) ( 1056 -1313 464 ) ( 1056 -1312 463 ) 128_gold_3 16 -96 180 1 1
@@ -1168,7 +1162,6 @@
 // entity 40
 {
 "classname" "func_button"
-"target" "Cooler DoorMain"
 // brush 0
 {
 ( 1824 1472 -352 ) ( 1824 1473 -352 ) ( 1824 1472 -351 ) 128_grey_2 0 0 0 1 1
@@ -1177,34 +1170,5 @@
 ( 1856 1504 -320 ) ( 1856 1505 -320 ) ( 1857 1504 -320 ) 128_grey_2 0 0 0 1 1
 ( 1856 1504 -320 ) ( 1857 1504 -320 ) ( 1856 1504 -319 ) 128_grey_2 0 0 0 1 1
 ( 1920 1504 -320 ) ( 1920 1504 -319 ) ( 1920 1505 -320 ) 128_grey_2 0 0 0 1 1
-}
-}
-// entity 41
-{
-"classname" "func_door"
-"targetname" "FactoryDoor"
-// brush 0
-{
-( 112 -64 240 ) ( 112 -63 240 ) ( 112 -64 241 ) 128_grey_3 80 0 0 1 1
-( 112 -352 240 ) ( 112 -352 241 ) ( 113 -352 240 ) 128_grey_3 0 0 0 1 1
-( 112 -64 16 ) ( 113 -64 16 ) ( 112 -63 16 ) 128_grey_3 0 -80 0 1 1
-( 128 -16 256 ) ( 128 -15 256 ) ( 129 -16 256 ) 128_grey_3 0 -80 0 1 1
-( 128 -16 256 ) ( 129 -16 256 ) ( 128 -16 257 ) 128_grey_3 0 0 0 1 1
-( 192 -16 256 ) ( 192 -16 257 ) ( 192 -15 256 ) 128_grey_3 80 0 0 1 1
-}
-}
-// entity 42
-{
-"classname" "func_door"
-"targetname" "FactoryDoor"
-"target" ""
-// brush 0
-{
-( 112 272 240 ) ( 112 273 240 ) ( 112 272 241 ) 128_grey_3 0 0 0 1 1
-( 112 -16 240 ) ( 112 -16 241 ) ( 113 -16 240 ) 128_grey_3 0 0 0 1 1
-( 112 272 16 ) ( 113 272 16 ) ( 112 273 16 ) 128_grey_3 0 0 0 1 1
-( 128 320 256 ) ( 128 321 256 ) ( 129 320 256 ) 128_grey_3 0 0 0 1 1
-( 128 320 256 ) ( 129 320 256 ) ( 128 320 257 ) 128_grey_3 0 0 0 1 1
-( 192 320 256 ) ( 192 320 257 ) ( 192 321 256 ) 128_grey_3 0 0 0 1 1
 }
 }
