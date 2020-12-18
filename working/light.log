@@ -1,33 +1,49 @@
 ---- light / ericw-tools v0.18.1 ----
 Raytracing backend: Embree
 running with 8 threads
-LoadBSPFile: 'citydungeon.bsp'
+LoadBSPFile: 'slaugther.bsp'
 BSP is version 29
 --- LoadEntities ---
-66 entities read, 46 are lights.
+WARNING: brush entity with mins (-319.00 337.00 1.00) maxs (-97.00 367.00 255.0) (func_door) has targetname "Cooler Door" which is not targetted by anything.
+WARNING: brush entity with mins (-255.00 -351.00 17.) maxs (-49.00 -337.00 255.) (func_door) has targetname "observatory door" which is not targetted by anything.
+WARNING: brush entity with mins (1985.00 1297.00 -51) maxs (1999.00 1503.00 -13) (func_door) has targetname "Cooler DoorMain" which is not targetted by anything.
+WARNING: brush entity with mins (1249.00 -1343.00 38) maxs (1303.00 -1121.00 67) (func_door) has targetname "observatory door main" which is not targetted by anything.
+WARNING: brush entity with mins (113.00 -15.00 17.00) maxs (191.00 319.00 255.0) (func_door) has empty key/value "target" ""
+WARNING: brush entity with mins (2241.00 -287.00 17.) maxs (2367.00 319.00 175.) (trigger_once) has targetname "BossTrigger" which is not targetted by anything.
+WARNING: brush entity with mins (1537.00 -1055.00 17) maxs (1536.00 1055.00 127) (trigger_once) has targetname "zombie trigger Fact3" which is not targetted by anything.
+WARNING: brush entity with mins (1553.00 -1055.00 17) maxs (1552.00 1055.00 127) (trigger_once) has targetname "zombie trigger Fact4" which is not targetted by anything.
+WARNING: brush entity with mins (1569.00 -1055.00 17) maxs (1568.00 1055.00 127) (trigger_once) has targetname "zombie trigger Fact5" which is not targetted by anything.
+WARNING: brush entity with mins (1585.00 -1055.00 17) maxs (1584.00 1055.00 127) (trigger_once) has targetname "zombie trigger Fact6" which is not targetted by anything.
+WARNING: brush entity with mins (1601.00 -1055.00 17) maxs (1600.00 1055.00 127) (trigger_once) has targetname "zombie trigger Fact7" which is not targetted by anything.
+WARNING: brush entity with mins (1617.00 -1055.00 17) maxs (1616.00 1055.00 127) (trigger_once) has targetname "zombie trigger Fact8" which is not targetted by anything.
+WARNING: brush entity with mins (1521.00 -1055.00 17) maxs (1520.00 1055.00 127) (trigger_once) has targetname "zombie trigger Fact2" which is not targetted by anything.
+WARNING: brush entity with mins (1505.00 -1055.00 17) maxs (1504.00 1055.00 127) (trigger_once) has targetname "zombie trigger Fact1" which is not targetted by anything.
+WARNING: entity at (2944 1072 -472) (item_key1) has empty key/value "targetname" ""
+WARNING: entity at (1856 -2944 856) (item_key1) has targetname "ob_key" which is not targetted by anything.
+243 entities read, 145 are lights.
 --- OptionsSummary ---
 Embree_TraceInit: Embree version: 2.15.0
 Embree_TraceInit:
 	0 sky faces
-	3677 solid faces
+	3995 solid faces
 	0 filtered faces
 	0 shadow-casting skip faces
-SetupLights: 46 initial lights
-SetupLights: 46 after surface lights
-SetupLights: 46 after jittering
+SetupLights: 145 initial lights
+SetupLights: 145 after surface lights
+SetupLights: 145 after jittering
 --- EstimateLightVisibility ---
-0....1....2....3....4....5....6....7....8....9...
-Final count: 46 lights 0 suns in use.
+0....1....2....3....4....5....6....7....8....9....
+Final count: 145 lights 0 suns in use.
 --- LightWorld ---
 0....1....2....3....4....5....6....7....8....9....
 Lighting Completed.
 
-lightdatasize: 550546
+lightdatasize: 180120
 0 switchable light styles (32 max)
-Writing citydungeon.bsp as BSP version 29
-0.595 seconds elapsed
+Writing slaugther.bsp as BSP version 29
+0.692 seconds elapsed
 
 stats:
-3.761662 lights tested, 1.005718 hits per sample point
+0.437853 lights tested, 0.406560 hits per sample point
 0.000000 bounce lights tested, 0.000000 hits per sample point
 0 empty lightmaps

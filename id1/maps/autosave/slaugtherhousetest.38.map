@@ -973,25 +973,25 @@
 // entity 8
 {
 "classname" "monster_zombie"
-"origin" "2128 -2752 872"
+"origin" "2128 -2720 872"
 "angle" "90"
 }
 // entity 9
 {
 "classname" "monster_zombie"
-"origin" "1936 -2752 872"
+"origin" "1936 -2720 872"
 "angle" "90"
 }
 // entity 10
 {
 "classname" "monster_zombie"
-"origin" "1776 -2752 872"
+"origin" "1776 -2720 872"
 "angle" "90"
 }
 // entity 11
 {
 "classname" "monster_zombie"
-"origin" "1616 -2752 872"
+"origin" "1616 -2720 872"
 "spawnflags" "0"
 "angle" "90"
 }
@@ -1000,12 +1000,14 @@
 "classname" "monster_shalrath"
 "origin" "2096 -2944 872"
 "angle" "90"
+"target" "obkey"
 }
 // entity 13
 {
 "classname" "monster_shalrath"
 "origin" "1632 -2944 872"
 "angle" "90"
+"target" "obkey"
 }
 // entity 14
 {
@@ -1572,21 +1574,25 @@
 {
 "classname" "info_teleport_destination"
 "origin" "1696 -1824 464"
+"targetname" "ob_spawn1"
 }
 // entity 82
 {
 "classname" "info_teleport_destination"
 "origin" "1840 -1824 464"
+"targetname" "ob_spawn2"
 }
 // entity 83
 {
 "classname" "info_teleport_destination"
 "origin" "1984 -1824 464"
+"targetname" "ob_spawn3"
 }
 // entity 84
 {
 "classname" "info_teleport_destination"
 "origin" "2144 -1824 464"
+"targetname" "ob_spawn4"
 }
 // entity 85
 {
@@ -1604,6 +1610,7 @@
 {
 "classname" "trigger_once"
 "angle" "90"
+"target" "Ob_counter"
 // brush 0
 {
 ( 1968 -1184 464 ) ( 1968 -1184 480 ) ( 1968 -1216 480 ) 128_blue_1 16 0 0 1 1
@@ -1619,64 +1626,115 @@
 "classname" "trigger_counter"
 "origin" "1624 -2664 856"
 "targetname" "Ob_counter"
+"target" "obtele1"
+"count" "1"
 }
 // entity 89
 {
 "classname" "trigger_counter"
 "origin" "1784 -2664 856"
 "targetname" "Ob_counter"
+"target" "obtele2"
+"count" "1"
 }
 // entity 90
 {
 "classname" "trigger_counter"
 "origin" "1944 -2664 856"
 "targetname" "Ob_counter"
+"target" "obtele3"
+"count" "1"
 }
 // entity 91
 {
 "classname" "trigger_counter"
 "origin" "2136 -2664 856"
 "targetname" "Ob_counter"
+"target" "obtele4"
+"count" "1"
 }
 // entity 92
 {
 "classname" "trigger_counter"
 "origin" "2104 -2872 856"
 "targetname" "Ob_counter"
+"target" "ob_mini_boss2"
+"count" "1"
 }
 // entity 93
 {
 "classname" "trigger_counter"
-"origin" "1624 -2872 856"
+"origin" "1640 -2872 856"
 "targetname" "Ob_counter"
+"target" "obtelemini1"
+"count" "1"
 }
 // entity 94
 {
 "classname" "trigger_teleport"
-"origin" "2056 -2872 856"
+"origin" "2104 -2920 856"
+"targetname" "obtelemini2"
+"target" "obtelemini2"
 }
 // entity 95
 {
 "classname" "trigger_teleport"
-"origin" "1656 -2872 856"
+"origin" "1640 -2936 856"
+"target" "ob_mini_boss1"
+"targetname" "obtelemini1"
 }
 // entity 96
 {
 "classname" "trigger_teleport"
 "origin" "1624 -2712 856"
+"target" "ob_spawn1"
+"targetname" "obtele1"
 }
 // entity 97
 {
 "classname" "trigger_teleport"
 "origin" "1784 -2712 856"
+"target" "ob_spawn2"
+"targetname" "obtele2"
 }
 // entity 98
 {
 "classname" "trigger_teleport"
 "origin" "1944 -2712 856"
+"target" "ob_spawn3"
+"targetname" "obtele3"
 }
 // entity 99
 {
 "classname" "trigger_teleport"
 "origin" "2136 -2712 856"
+"target" "ob_spawn4"
+"targetname" "obtele4"
+}
+// entity 100
+{
+"classname" "item_key1"
+"origin" "1856 -2944 872"
+"targetname" "ob_key"
+}
+// entity 101
+{
+"classname" "trigger_counter"
+"origin" "1864 -2872 856"
+"targetname" "obkey"
+"target" "obkeytele"
+"count" "2"
+}
+// entity 102
+{
+"classname" "trigger_teleport"
+"origin" "1864 -2936 856"
+"targetname" "obkeytele"
+"target" "obkeyspawn"
+}
+// entity 103
+{
+"classname" "info_teleport_destination"
+"origin" "2240 -1216 482"
+"targetname" "obkeyspawn"
 }
