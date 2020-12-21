@@ -2059,7 +2059,7 @@
 // entity 135
 {
 "classname" "light"
-"origin" "3096 1400 -168"
+"origin" "3144 1400 -168"
 "light" "300"
 "angle" "0"
 }
@@ -2094,7 +2094,7 @@
 // entity 140
 {
 "classname" "light"
-"origin" "3096 1400 -392"
+"origin" "3144 1400 -392"
 "light" "300"
 "angle" "0"
 }
@@ -2266,7 +2266,7 @@
 // entity 168
 {
 "classname" "light"
-"origin" "1384 -1800 552"
+"origin" "1384 -1992 552"
 "light" "300"
 "angle" "180"
 }
@@ -2287,7 +2287,7 @@
 // entity 171
 {
 "classname" "light"
-"origin" "2296 -1800 552"
+"origin" "2296 -1992 552"
 "light" "300"
 "angle" "180"
 }
@@ -2378,7 +2378,7 @@
 // entity 184
 {
 "classname" "light"
-"origin" "1912 -1800 552"
+"origin" "1912 -1992 552"
 "light" "300"
 "angle" "180"
 }
@@ -2729,4 +2729,42 @@
 {
 "classname" "item_shells"
 "origin" "2544 1680 -496"
+}
+// entity 243
+{
+"classname" "light"
+"origin" "3416 1400 -168"
+"light" "300"
+"angle" "0"
+}
+// entity 244
+{
+"classname" "light"
+"origin" "3416 1400 -392"
+"light" "300"
+"angle" "0"
+}
+// entity 245
+{
+"classname" "light"
+"origin" "248 -8 136"
+"light" "300"
+}
+// entity 246
+{
+"classname" "light"
+"origin" "248 216 136"
+"light" "300"
+}
+// entity 247
+{
+"classname" "light"
+"origin" "248 -216 136"
+"light" "300"
+}
+// entity 248
+{
+"classname" "light"
+"origin" "3112 8 136"
+"light" "300"
 }

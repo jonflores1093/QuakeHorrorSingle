@@ -20,7 +20,7 @@ WARNING: brush entity with mins (1521.00 -1055.00 17) maxs (1520.00 1055.00 127)
 WARNING: brush entity with mins (1505.00 -1055.00 17) maxs (1504.00 1055.00 127) (trigger_once) has targetname "zombie trigger Fact1" which is not targetted by anything.
 WARNING: entity at (2944 1072 -472) (item_key1) has empty key/value "targetname" ""
 WARNING: entity at (1856 -2944 856) (item_key1) has targetname "ob_key" which is not targetted by anything.
-243 entities read, 145 are lights.
+249 entities read, 151 are lights.
 --- OptionsSummary ---
 Embree_TraceInit: Embree version: 2.15.0
 Embree_TraceInit:
@@ -28,22 +28,22 @@ Embree_TraceInit:
 	3995 solid faces
 	0 filtered faces
 	0 shadow-casting skip faces
-SetupLights: 145 initial lights
-SetupLights: 145 after surface lights
-SetupLights: 145 after jittering
+SetupLights: 151 initial lights
+SetupLights: 151 after surface lights
+SetupLights: 151 after jittering
 --- EstimateLightVisibility ---
 0....1....2....3....4....5....6....7....8....9....
-Final count: 145 lights 0 suns in use.
+Final count: 151 lights 0 suns in use.
 --- LightWorld ---
 0....1....2....3....4....5....6....7....8....9....
 Lighting Completed.
 
-lightdatasize: 180120
+lightdatasize: 184300
 0 switchable light styles (32 max)
 Writing slaugther.bsp as BSP version 29
-0.692 seconds elapsed
+0.531 seconds elapsed
 
 stats:
-0.437853 lights tested, 0.406560 hits per sample point
+0.463129 lights tested, 0.429956 hits per sample point
 0.000000 bounce lights tested, 0.000000 hits per sample point
 0 empty lightmaps

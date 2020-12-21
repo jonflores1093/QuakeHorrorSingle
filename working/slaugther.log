@@ -6,7 +6,7 @@ Output file: slaugther.bsp
 *** WARNING 06: No info_player_deathmatch entities in level
           776 faces
           129 brushes
-          243 entities
+          249 entities
            37 unique texnames
           310 texinfo
 
@@ -41,14 +41,14 @@ Processing hull 0...
           489 vis clusters
          1355 vis portals
 ---- FillOutside ----
-*** WARNING 10: Reached occupant at (3096 1400 -168), no filling performed.
+*** WARNING 10: Reached occupant at (3416 1400 -168), no filling performed.
 Leak file written to slaugther.pts
 ---- MakeFaceEdges ----
 ---- GrowRegions ----
 Processing hull 1...
-*** WARNING 10: Reached occupant at (3096 1400 -392), no filling performed.
+*** WARNING 10: Reached occupant at (3416 1400 -392), no filling performed.
 Processing hull 2...
-*** WARNING 10: Reached occupant at (3096 1400 -392), no filling performed.
+*** WARNING 10: Reached occupant at (3416 1400 -392), no filling performed.
 *** WARNING 16: Texture __TB_empty not found
 ---- WriteBSPFile ----
 Wrote slaugther.bsp
@@ -65,7 +65,7 @@ Wrote slaugther.bsp
            37 textures        1138552
               lightdata             0
               visdata               0
-              entdata           19533
+              entdata           19928
 
-0.450 seconds elapsed
-Peak memory usage: 15140168 (14.4M)
+0.478 seconds elapsed
+Peak memory usage: 15140648 (14.4M)
