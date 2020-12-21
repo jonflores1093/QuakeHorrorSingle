@@ -4,11 +4,11 @@ Output file: slaugther.bsp
 
 ---- LoadMapFile ----
 *** WARNING 06: No info_player_deathmatch entities in level
-          776 faces
-          129 brushes
-          246 entities
-           37 unique texnames
-          310 texinfo
+          818 faces
+          136 brushes
+          251 entities
+           39 unique texnames
+          328 texinfo
 
 Opened WAD: C:/Users/jonfl/Desktop/QuakeGD/wads/prototype_1_2.wad
 Opened WAD: C:/Users/jonfl/Desktop/SlaughterHouse/SlaughterHouse/wads2/cr8_set.wad
@@ -19,27 +19,27 @@ Opened WAD: C:/Users/jonfl/Desktop/SlaughterHouse/SlaughterHouse/wads2/indust_ho
 Opened WAD: C:/Users/jonfl/Desktop/SlaughterHouse/SlaughterHouse/wads/id1.wad
 Processing hull 0...
 ---- Brush_LoadEntity ----
-          109 brushes
-          160 planes
+          114 brushes
+          176 planes
 ---- CSGFaces ----
-          656 brushfaces
-          584 csgfaces
-          526 mergedfaces
+          686 brushfaces
+          624 csgfaces
+          564 mergedfaces
 ---- SolidBSP ----
-          812 split nodes
-          324 solid leafs
-          488 empty leafs
+          832 split nodes
+          329 solid leafs
+          503 empty leafs
             1 water leafs
             0 detail leafs
             0 detail illusionary leafs
             0 detail fence leafs
             0 illusionary visblocker leafs
-         4123 leaffaces
-         3999 nodefaces
+         4199 leaffaces
+         4046 nodefaces
 ---- Portalize ----
-          489 vis leafs
-          489 vis clusters
-         1355 vis portals
+          504 vis leafs
+          504 vis clusters
+         1402 vis portals
 ---- FillOutside ----
 *** WARNING 10: Reached occupant at (3416 1400 -168), no filling performed.
 Leak file written to slaugther.pts
@@ -52,20 +52,20 @@ Processing hull 2...
 *** WARNING 16: Texture __TB_empty not found
 ---- WriteBSPFile ----
 Wrote slaugther.bsp
-          466 planes             9320
-         5986 vertexes          71832
-          932 nodes             22368
-          245 texinfo            9800
-         4452 faces             89040
-         1905 clipnodes         15240
-          610 leafs             17080
-         4576 marksurfaces       9152
-        17801 surfedges         71204
-        11107 edges             44428
-           37 textures        1138552
+          522 planes            10440
+         6080 vertexes          72960
+          964 nodes             23136
+          263 texinfo           10520
+         4515 faces             90300
+         1969 clipnodes         15752
+          637 leafs             17836
+         4668 marksurfaces       9336
+        18053 surfedges         72212
+        11278 edges             45112
+           39 textures        1231120
               lightdata             0
               visdata               0
-              entdata           19681
+              entdata           19651
 
-0.342 seconds elapsed
-Peak memory usage: 15140432 (14.4M)
+0.350 seconds elapsed
+Peak memory usage: 15460048 (14.7M)

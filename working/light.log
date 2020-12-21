@@ -5,9 +5,12 @@ LoadBSPFile: 'slaugther.bsp'
 BSP is version 29
 --- LoadEntities ---
 WARNING: brush entity with mins (-319.00 337.00 1.00) maxs (-97.00 367.00 255.0) (func_door) has empty key/value "message" ""
+WARNING: brush entity with mins (-319.00 337.00 1.00) maxs (-97.00 367.00 255.0) (func_door) has targetname "Cooler Door" which is not targetted by anything.
 WARNING: brush entity with mins (-255.00 -351.00 17.) maxs (-49.00 -337.00 255.) (func_door) has targetname "observatory door" which is not targetted by anything.
 WARNING: brush entity with mins (1985.00 1297.00 -51) maxs (1999.00 1503.00 -13) (func_door) has targetname "Cooler DoorMain" which is not targetted by anything.
 WARNING: brush entity with mins (1249.00 -1343.00 38) maxs (1303.00 -1121.00 67) (func_door) has targetname "observatory door main" which is not targetted by anything.
+WARNING: entity at (2096 -2944 872) (monster_shalrath) has unmatched "target" (obdooropen)
+WARNING: entity at (1632 -2944 872) (monster_shalrath) has unmatched "target" (obdooropen)
 WARNING: brush entity with mins (113.00 -15.00 17.00) maxs (191.00 319.00 255.0) (func_door) has empty key/value "target" ""
 WARNING: brush entity with mins (2241.00 -287.00 17.) maxs (2367.00 319.00 175.) (trigger_once) has targetname "BossTrigger" which is not targetted by anything.
 WARNING: brush entity with mins (1537.00 -1055.00 17) maxs (1536.00 1055.00 127) (trigger_once) has targetname "zombie trigger Fact3" which is not targetted by anything.
@@ -19,30 +22,31 @@ WARNING: brush entity with mins (1617.00 -1055.00 17) maxs (1616.00 1055.00 127)
 WARNING: brush entity with mins (1521.00 -1055.00 17) maxs (1520.00 1055.00 127) (trigger_once) has targetname "zombie trigger Fact2" which is not targetted by anything.
 WARNING: brush entity with mins (1505.00 -1055.00 17) maxs (1504.00 1055.00 127) (trigger_once) has targetname "zombie trigger Fact1" which is not targetted by anything.
 WARNING: entity at (2944 1072 -472) (item_key1) has empty key/value "targetname" ""
-246 entities read, 151 are lights.
+WARNING: entity at (2104 -2952 856) (trigger_teleport) has targetname "obtelemini2" which is not targetted by anything.
+251 entities read, 152 are lights.
 --- OptionsSummary ---
 Embree_TraceInit: Embree version: 2.15.0
 Embree_TraceInit:
 	0 sky faces
-	3995 solid faces
+	4042 solid faces
 	0 filtered faces
 	0 shadow-casting skip faces
-SetupLights: 151 initial lights
-SetupLights: 151 after surface lights
-SetupLights: 151 after jittering
+SetupLights: 152 initial lights
+SetupLights: 152 after surface lights
+SetupLights: 152 after jittering
 --- EstimateLightVisibility ---
 0....1....2....3....4....5....6....7....8....9....
-Final count: 151 lights 0 suns in use.
+Final count: 152 lights 0 suns in use.
 --- LightWorld ---
 0....1....2....3....4....5....6....7....8....9....
 Lighting Completed.
 
-lightdatasize: 184300
+lightdatasize: 184736
 0 switchable light styles (32 max)
 Writing slaugther.bsp as BSP version 29
-0.353 seconds elapsed
+0.344 seconds elapsed
 
 stats:
-0.463129 lights tested, 0.429956 hits per sample point
+0.470563 lights tested, 0.436905 hits per sample point
 0.000000 bounce lights tested, 0.000000 hits per sample point
 0 empty lightmaps
