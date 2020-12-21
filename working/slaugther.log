@@ -6,7 +6,7 @@ Output file: slaugther.bsp
 *** WARNING 06: No info_player_deathmatch entities in level
           776 faces
           129 brushes
-          249 entities
+          246 entities
            37 unique texnames
           310 texinfo
 
@@ -65,7 +65,7 @@ Wrote slaugther.bsp
            37 textures        1138552
               lightdata             0
               visdata               0
-              entdata           19928
+              entdata           19681
 
-0.478 seconds elapsed
-Peak memory usage: 15140648 (14.4M)
+0.342 seconds elapsed
+Peak memory usage: 15140432 (14.4M)

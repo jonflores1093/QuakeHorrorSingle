@@ -4,7 +4,7 @@ running with 8 threads
 LoadBSPFile: 'slaugther.bsp'
 BSP is version 29
 --- LoadEntities ---
-WARNING: brush entity with mins (-319.00 337.00 1.00) maxs (-97.00 367.00 255.0) (func_door) has targetname "Cooler Door" which is not targetted by anything.
+WARNING: brush entity with mins (-319.00 337.00 1.00) maxs (-97.00 367.00 255.0) (func_door) has empty key/value "message" ""
 WARNING: brush entity with mins (-255.00 -351.00 17.) maxs (-49.00 -337.00 255.) (func_door) has targetname "observatory door" which is not targetted by anything.
 WARNING: brush entity with mins (1985.00 1297.00 -51) maxs (1999.00 1503.00 -13) (func_door) has targetname "Cooler DoorMain" which is not targetted by anything.
 WARNING: brush entity with mins (1249.00 -1343.00 38) maxs (1303.00 -1121.00 67) (func_door) has targetname "observatory door main" which is not targetted by anything.
@@ -19,8 +19,7 @@ WARNING: brush entity with mins (1617.00 -1055.00 17) maxs (1616.00 1055.00 127)
 WARNING: brush entity with mins (1521.00 -1055.00 17) maxs (1520.00 1055.00 127) (trigger_once) has targetname "zombie trigger Fact2" which is not targetted by anything.
 WARNING: brush entity with mins (1505.00 -1055.00 17) maxs (1504.00 1055.00 127) (trigger_once) has targetname "zombie trigger Fact1" which is not targetted by anything.
 WARNING: entity at (2944 1072 -472) (item_key1) has empty key/value "targetname" ""
-WARNING: entity at (1856 -2944 856) (item_key1) has targetname "ob_key" which is not targetted by anything.
-249 entities read, 151 are lights.
+246 entities read, 151 are lights.
 --- OptionsSummary ---
 Embree_TraceInit: Embree version: 2.15.0
 Embree_TraceInit:
@@ -41,7 +40,7 @@ Lighting Completed.
 lightdatasize: 184300
 0 switchable light styles (32 max)
 Writing slaugther.bsp as BSP version 29
-0.531 seconds elapsed
+0.353 seconds elapsed
 
 stats:
 0.463129 lights tested, 0.429956 hits per sample point
